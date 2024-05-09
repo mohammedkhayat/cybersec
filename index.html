@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل السلامة الرقمية</title>
+    <style>
+        /* CSS for index.html */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a; /* Dark gray background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            
+            padding: 0;
+            background-image: url('background.gif'); /* Replace 'background.gif' with your image file */
+            background-size: cover;
+            direction: rtl; /* Right-to-left text direction for Arabic */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px; /* Increased padding for better spacing */
+            background-color: rgba(0, 0, 0, 0); /* Darker container with transparency */
+            border-radius: 20px; /* Rounded corners for container */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0); /* Enhanced glow effect */
+        }
+        h1, h2 {
+            color: #ffffff; /* White headings */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Glow effect */
+            animation: glow 2s infinite alternate; /* Animation */
+        }
+        p {
+
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 40px; /* Increased margin for better spacing */
+            animation: spin 4s linear infinite; /* Logo spinning animation */
+        }
+        .page-link {
+            display: block;
+            margin-bottom: 20px; /* Increased margin for better spacing */
+            font-size: 18px;
+            text-decoration: none;
+            color: #ffffff; /* White link color */
+
+        }
+        .page-link:hover {
+            color: #66fcf1; /* Turquoise color on hover */
+            text-decoration: underline;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 0px rgba(255, 255, 255, 0.5); }
+            to { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5); }
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo"> <!-- Replace 'logo.png' with your logo file -->
+        <h1>دليل السلامة الرقمية</h1>
+        <p>مرحبًا بكم في دليل السلامة الرقمية. اكتشف كيف يمكنك حماية نفسك على الإنترنت من التهديدات الرقمية.</p>
+        <h2>الصفحات:</h2>
+        <a href="doxing.html" class="page-link">الدوكسينج وكيفية الوقاية منه (Doxing)</a>
+        <a href="malware.html" class="page-link">البرمجيات الخبيثة وكيفية الوقاية منها (Malware)</a>
+        <a href="sim-swapping.html" class="page-link">تبديل الشرائح SIM وكيفية الوقاية منه (SIM Swapping)</a>
+        <a href="social-engineering.html" class="page-link">الهندسة الاجتماعية وكيفية الوقاية منها (Social Engineering)</a>
+        <a href="phishing.html" class="page-link">الصيد الاحتيالي وكيفية الوقاية منه (Phishing)</a>
+        <a href="ddos.html" class="page-link">ddos وكيفية الوقاية منه (ddos)</a>
+        <a href="supply-chain-attacks.html" class="page-link">هجمات سلسلة التوريد وكيفية الوقاية منها (Supply Chain Attacks)</a>
+        <a href="mitm-attacks.html" class="page-link">هجمات الوسيط وكيفية الوقاية منها (Man-in-the-Middle Attacks)</a>
+        <a href="data-breaches.html" class="page-link">تسريبات البيانية وخطرها على المستخدمين (Data Breaches)</a>
+        <a href="dns-tunneling.html" class="page-link">وكيفية الوقاية منه (DNS Tunneling)</a>
+    </div>
+</body>
+
+</html>
+

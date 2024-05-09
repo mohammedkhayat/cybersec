@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(DDoS)</title>
+    <style>
+        /* CSS for ddos.html */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a; /* Dark gray background */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.gif'); /* Replace 'background.jpg' with your image file */
+            background-size: cover;
+            direction: rtl; /* Right-to-left text direction for Arabic */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 40px; /* Increased padding for better spacing */
+            background-color: rgba(0, 0, 0, 0.6); /* Darker container with transparency */
+            border-radius: 20px; /* Rounded corners for container */
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* Enhanced glow effect */
+        }
+        h1, h2 {
+            color: #ffffff; /* White headings */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Glow effect */
+            animation: glow 2s infinite alternate; /* Animation */
+        }
+        p {
+            text-align: justify; /* Justify text */
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 40px; /* Increased margin for better spacing */
+            animation: spin 4s linear infinite; /* Logo spinning animation */
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 0px rgba(255, 255, 255, 0.5); }
+            to { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5); }
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo"> <!-- Replace 'logo.png' with your logo file -->
+        <h1>DDos</h1>
+        <p>هجمات (DDoS) هي هجمات تستهدف خدمة معينة عبر توجيه مجموعة من الطلبات الخبيثة نحو الخادم المستهدف. تهدف هذه الهجمات إلى تعطيل الخدمة للمستخدمين الشرعيين عن طريق استنفاد موارد الخادم أو تعطيل قدرته على معالجة الطلبات.</p>
+        <h2>كيفية تنفيذ هجمات DDoS:</h2>
+        <p>تنفذ هجمات DDoS عادةً عن طريق استخدام شبكة من الأجهزة المخترقة (مثل أجهزة IoT المصابة ببرامج ضارة)، تُعرف هذه الأجهزة بـ "بوتنت" (Botnet). يقوم المهاجم بتوجيه الأوامر إلى هذه الأجهزة المخترقة لإطلاق تلك الهجمات.</p>
+        <h2>الطبقات في هجمات DDoS:</h2>
+        <p>تتضمن هجمات DDoS تأثير طبقتين رئيسيتين:</p>
+        <p><strong>طبقة 4 (TCP/UDP):</strong> يستهدف المهاجمون تعطيل الخدمة عبر تجاوز البنية التحتية للشبكة باستهداف بروتوكولات النقل مثل TCP أو UDP. يؤدي زيادة الطلبات إلى استنفاد موارد الخادم وتعطيل الخدمة.</p>
+        <p><strong>طبقة 7 (Application):</strong> يستهدف المهاجمون التعطيل على مستوى التطبيق عبر استهداف التطبيقات الخاصة بالخادم، مثل خوادم الويب وخدمات API. يتم زيادة الحمل على التطبيقات المستهدفة لتعطيل الخدمة.</p>
+        <h2>كيفية الوقاية من هجمات DDoS:</h2>
+        <p>1. استخدام خدمات الوساطة لتصفية حركة المرور المشبوهة وتحديد الهجمات المحتملة.</p>
+        <p>2. تحسين البنية التحتية للشبكة لزيادة القدرة على التحمل ومقاومة الهجمات الضارة.</p>
+        <p>3. استخدام الfirewalls وأنظمة الكشف عن اختراقات لرصد وتصفية حركة المرور الضارة.</p>
+        <p>4. التنسيق مع مزودي الخدمات لتعزيز أمان الشبكة وتطوير استراتيجيات الدفاع ضد هجمات DDoS.</p>
+        <p>5. تطوير خطط استجابة للطوارئ لتخفيف تأثير هجمات DDoS المحتملة وتعزيز استعداد الشركة.</p>
+        <p>6. إجراء اختبارات اختراق واختبارات الضغط الشاملة لتحديد نقاط الضعف في البنية التحتية وتعزيز الأمان.</p>
+    </div>
+
+</body>
+</html>
+
